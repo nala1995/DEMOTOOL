@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  display: grid;
+  align-content: center;
+  width: 300px;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background-color:  rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  position: fixed; /* Posición fija */
+  top: 0; /* Alineado en la parte superior */
+  left: 0; /* Alineado a la izquierda */
+}
+
+.sidebar button {
+  color: #25899185;
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+              inset -4px -4px 12px #ffffff;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 10px;
+  margin-left: 200px; /* Para dejar espacio para el sidebar */
+}
+
+.cardone .cardtwo .cardthree .cardfour .cardfive .cardsix {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  background-color: #eee7e7e1;
+}
+img{
+  height: 90px;
+  width: 90px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
