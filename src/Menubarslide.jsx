@@ -69,9 +69,7 @@ function Menubarslide() {
       <button onClick={() => handleTabClick(5)}>Most Selled Products</button>
       <button onClick={() => handleTabClick(6)}>Summarise Information</button>
       {/* Define botones adicionales para las otras pestañas */}
-      {cards.map((card) => (
-        <Card key={card.id} title={card.title} description={card.description} />
-      ))} 
+      {cards.forEach((card) => ( <Card key={card.id} title={card.title} description={card.description} /> ))}
     </div>
   );
 }

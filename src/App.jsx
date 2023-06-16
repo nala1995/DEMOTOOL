@@ -55,7 +55,7 @@ function App() {
   }, [productsData]);
 
   return (
-    <div id="root">
+    <>
       <Menubarslide handleTabClick={handleTabClick} />
       <div className="app">
         <Dashboard activeTab={activeTab} />
@@ -72,7 +72,7 @@ function App() {
           },
         }}
       />
-    </div>
+    </>
   );
 }
 
