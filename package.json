@@ -1,7 +1,7 @@
 {
-  "name": "bit_dashboard",
-  "homepage": "https://nala1995.github.io/DEMOTOOL/",
-  "private": "true",
+  "name": "demotool",
+  "homepage": "https://nala1995.github.io/demotool/",
+  "private": "false",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
